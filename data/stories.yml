@@ -1,0 +1,20 @@
+version: "3.1"
+
+stories:
+- story: Salomlashish va xayrlashishning oddiy yo'li
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Savol-javobdan keyin xayrlashish
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_about_institute
+  - action: utter_ask_about_institute
+  - intent: affirm
+  - action: utter_happy
+  - intent: goodbye
+  - action: utter_goodbye

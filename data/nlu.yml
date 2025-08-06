@@ -1,0 +1,79 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Salom
+    - Assalomu alaykum
+    - Xayrli kun
+    - Yaxshimisiz
+    - Salomlar
+    - Assalomu alaykum, yaxshimisizlar?
+    - Bot, salom
+    - Qalaysiz
+
+- intent: goodbye
+  examples: |
+    - Xayr
+    - Ko'rishguncha
+    - Sog' bo'ling
+    - Xayrli tun
+    - Hozircha xayr
+    - Rahmat, sog' bo'ling
+    - Yaxshi qoling
+
+- intent: affirm
+  examples: |
+    - Ha
+    - Albatta
+    - To'g'ri
+    - Shunday
+    - Aynan shunday
+    - Juda to'g'ri
+    - Bo'ladi
+
+- intent: deny
+  examples: |
+    - Yo'q
+    - Noto'g'ri
+    - Unday emas
+    - Adashdingiz
+    - Yo'q, unday emas
+    - Kerak emas
+
+- intent: mood_great
+  examples: |
+    - A'lo
+    - Zo'r
+    - Juda yaxshi
+    - Kayfiyatim a'lo
+    - Hammasi joyida
+    - Rahmat, yaxshi
+
+- intent: mood_unhappy
+  examples: |
+    - Yomon
+    - Kayfiyatim yo'q
+    - Hafa bo'ldim
+    - Unchalik yaxshi emas
+    - Juda yomon
+    - Ishlar yaxshi emas
+
+- intent: bot_challenge
+  examples: |
+    - Sen botsanmi?
+    - Siz botmisiz?
+    - Men kim bilan gaplashyapman?
+    - Sen odammisan yoki dastur?
+    - Bu botmi?
+    - Isming nima?
+
+- intent: ask_about_institute
+  examples: |
+    - Institut haqida ma'lumot bering
+    - O'qish haqida
+    - Fakultetlar haqida gapirib bering
+    - Qabul qachon boshlanadi?
+    - Kafedralar ro'yxatini bersangiz
+    - Institut manzili qayerda?
+    - Institut rektori kim?

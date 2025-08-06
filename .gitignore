@@ -1,0 +1,12 @@
+# Virtual Environment
+venv/
+__pycache__/
+.pytest_cache/
+
+# Rasa models
+models/*
+!models/.placeholder
+
+# Log and temporary files
+*.log
+*.egg-info
